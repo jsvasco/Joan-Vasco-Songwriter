@@ -11124,11 +11124,13 @@ body {
 }
 .projects-section .featured-text {
   padding: 2rem;
+  margin: 0 25px 50px 25px;
 }
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    margin: 50px 25px 50px 25px;
+    
   }
 }
 .projects-section .project-text {
@@ -11143,7 +11145,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/foot.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11184,8 +11186,8 @@ body {
 }
 .contact-section .social a {
   text-align: center;
-  height: 3rem;
-  width: 3rem;
+  height: 5rem;
+  width: 5rem;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 100%;
   line-height: 3rem;
